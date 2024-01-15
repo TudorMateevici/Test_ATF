@@ -1,0 +1,53 @@
+2023-11-13 12:09:20.418 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:09:32.004 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:09:32.831 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:09:33.701 [main] INFO  stepDefinitions.Hooks -
+Starting API test Delete information about a created booking
+2023-11-13 12:18:26.831 [main] INFO  stepDefinitions.Hooks -
+API User authentication
+2023-11-13 12:18:26.840 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:18:29.202 [main] INFO  stepDefinitions.Hooks -
+API User authentication
+2023-11-13 12:18:29.203 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:18:30.623 [main] INFO  stepDefinitions.Hooks -
+API User authentication
+2023-11-13 12:18:30.624 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:21:00.297 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:21:00.306 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:21:02.557 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:21:02.558 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:21:03.986 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:21:03.987 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:26:04.926 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:26:04.937 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:26:07.275 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:26:07.275 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:26:08.663 [main] INFO  stepDefinitions.Hooks - API User authentication
+2023-11-13 12:26:08.664 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:28:05.120 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:28:07.466 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:28:08.896 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:35:05.874 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:35:10.319 [main] INFO  stepDefinitions.TestFeatureTwoAPI - Response status code 200
+2023-11-13 12:35:11.304 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:35:12.736 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:38:38.995 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:38:43.507 [main] INFO  stepDefinitions.TestFeatureTwoAPI - Response status code 200
+2023-11-13 12:38:44.478 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:38:45.859 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking
+2023-11-13 12:45:04.024 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Create a new booking
+2023-11-13 12:45:04.748 [main] INFO  stepDefinitions.TestFeatureTwoAPI - POST request sent with   {
+    "firstname": "Tim",
+    "lastname": "Rogers",
+    "totalprice": 999,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2023-12-01",
+      "checkout": "2023-12-31"
+    },
+    "additionalneeds": "Breakfast"
+  }
+2023-11-13 12:45:04.750 [main] INFO  stepDefinitions.TestFeatureTwoAPI - Response status code 200
+2023-11-13 12:45:05.820 [main] INFO  stepDefinitions.TestFeatureTwoAPI - New created booking ID1620
+2023-11-13 12:45:06.588 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Retrieve information about a created booking
+2023-11-13 12:45:08.063 [main] INFO  stepDefinitions.Hooks - Logger initialized for scenario: Delete information about a created booking

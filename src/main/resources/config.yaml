@@ -1,0 +1,4 @@
+driverPath: src/test/resources/chromedriver.exe/
+UIUrl: https://www.saucedemo.com
+APIUrl: https://restful-booker.herokuapp.com
+jsonFile: src/test/resources/ApiJson.json
