@@ -4,37 +4,31 @@ import java.util.Scanner;
 
 public class Overloaded_Methods {
 
-    public static void main(String [] args){
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter length: ");
+        System.out.println("Enter rectangle length:");
 
-//        int length = scanner.nextInt();
+        int length = scanner.nextInt();
 
-        double length = scanner.nextDouble();
+        System.out.println("Enter rectangle width:");
 
+        int width = scanner.nextInt();
 
-        System.out.println("Enter width: ");
+        System.out.println("Enter rectangle height");
 
-//        int width = scanner.nextInt();
-
-        double width = scanner.nextDouble();
+        int height = scanner.nextInt();
 
         calculate(length, width);
 
-//        System.out.println("Area = " + calculate(length, width));
-
-        System.out.println("Perimeter = " + calculate(length, width));
+        calculate(length, width, height);
     }
-
-    static int calculate(int length, int width  ){
-
-        return length * width;
+     static void calculate(int length, int width) {
+        System.out.println("Rectangle area = " + length * width);
     }
-
-    static double calculate(double length, double width){
-
-        return 2 * (length + width);
+    static void calculate(int length,int width,int height){
+        System.out.println("Rectangle volume = " + length * width * height);
     }
 }
+
